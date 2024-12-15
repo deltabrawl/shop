@@ -26,8 +26,8 @@ $( document ).ready(function () {
     goToLink("https://t.me/deltabrawlfaixus");
   });
 
-  $('.rb').click(function() {
-    goToLink("https://roblox.cheapdonate.ru");
+  $('.rgb').click(function() {
+    goToLink("https://deltabrawl.github.io/rgbcolor");
   });
 
   $('.mn').click(function() {
