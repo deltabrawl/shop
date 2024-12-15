@@ -198,6 +198,15 @@ align-items: center;
     transition: 0.2s;
     flex-direction: column;
 }
+.tovarbp{
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.2s;
+    flex-direction: column;
+}
 .tovar_glav{
     flex-grow: 1;
     display: flex;
@@ -209,6 +218,11 @@ align-items: center;
 }
 
 .tovar1style{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+.tovarbpstyle{
     width: 100%;
     height: 25vh;
     object-fit: cover;
@@ -430,6 +444,17 @@ align-items: center;
 }
 
 .tovar{
+    /* margin-top: 48px; */
+    transition: 0.2s ease-in-out;
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tovarbp{
     /* margin-top: 48px; */
     transition: 0.2s ease-in-out;
     border-radius: 25px;
@@ -1036,6 +1061,13 @@ height: 47vw;
     }
 
     .tovar{
+        margin-top: 0px;
+        transition: 0.2s;
+        width: 100%;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .tovarbp{
         margin-top: 0px;
         transition: 0.2s;
         width: 100%;
